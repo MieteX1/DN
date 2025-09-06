@@ -1,0 +1,64 @@
+import React, { useState } from "react";
+import Petal from "../components/Petal";
+
+export default function HomePage() {
+  const [progress] = useState(2);
+
+  return (
+    <div className="relative flex h-screen overflow-hidden">
+
+      <Petal className="top-[-50px] left-[20%] animate-petal-straight" />
+      <Petal className="top-[-50px] left-[20%] animate-petal-diagonal" />
+      <Petal className="top-[-50px] right-[25%] animate-petal-straight" />
+      <Petal className="top-[-50px] right-[25%] animate-petal-lr" />
+      <Petal className="top-[-50px] right-[10%] animate-petal-straight" />
+      <Petal className="top-[-50px] left-[5%] animate-petal-lr1" />
+      <Petal className="top-[-50px] left-[45%] animate-petal-lr1" />
+      <Petal className="top-[-50px] left-[85%] animate-petal-lr1" />
+
+      {/* Lewa kolumna ze zdjęciem */}
+      <div className="h-full">
+        <img
+          src="/images/roseleft.png"
+          alt="Left"
+          className="h-full opacity-35"
+        />
+      </div>
+
+      {/* Środkowa kolumna */}
+      <div className="flex-1 flex flex-col aboreto mt-56 items-center">
+        {/* Tekst */}
+        <div className="flex-1 flex flex-col justify-center items-center">
+          <h1 className="text-4xl text-white text-center">
+            <p>Something big is coming soon!</p>
+            <br />
+            <p>TBD ~this year</p>
+            <br />
+            <p>Stay tuned and watch your back.</p>
+          </h1>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="flex flex-col items-center mb-36 space-y-4">
+          <p className="text-white text-base">Progress Bar</p>
+          <div className="w-72 border-[1px] h-4 overflow-hidden">
+            <div
+              className="bg-[#880808] h-full transition-all duration-500"
+              style={{ width: `${progress}%` }}
+            ></div>
+          </div>
+          <p className="text-white">{progress}%</p>
+        </div>
+      </div>
+
+      {/* Prawa kolumna ze zdjęciem */}
+      <div className="h-full">
+        <img
+          src="/images/roseright.png"
+          alt="Right"
+          className="h-full opacity-35"
+        />
+      </div>
+    </div>
+  );
+}
