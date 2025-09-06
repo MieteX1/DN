@@ -37,3 +37,11 @@ body {
 .animate-petal-diagonal { animation: petalDiagonal 6s ease-in-out infinite; }
 .animate-petal-lr       { animation: petalLr 6s linear infinite; }
 .animate-petal-lr1       { animation: petalLr 8s linear infinite; }
+
+@media (max-width: 767px) {
+  .kurwa {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/images/roseleft.png');
+    background-size: cover;
+    background-position: center;
+  }
+}
