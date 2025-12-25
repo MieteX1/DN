@@ -10,7 +10,7 @@ export default function LosowaniePage() {
       {/* VIDEO */}
       <div className="w-full max-w-2xl">
         <video 
-          src="/videos/Losowanie.mkv" 
+          src="/videos/Losowanie.mp4" 
           controls 
           className="w-full rounded-2xl shadow-[0_0_40px_rgba(236,72,153,0.6)]"
         />
