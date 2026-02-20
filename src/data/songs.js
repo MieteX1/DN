@@ -57,6 +57,128 @@ export const basicSongs = [
 
   },
   {
+    id: "Jaguar",
+    category: "CD",
+    title: "Jaguar",
+    artist: "MieteX",
+    src: "/music/Jaguar.mp3",
+    cover: "/covers/Jaguar.jpeg",
+    lyrics: `
+      [Intro]
+      (PROD: cinematic horns + distant war drums)
+      Dziś nie ma odwrotu.
+      Dziś idziemy po swoje.
+      (heavy breathing)
+      Ja prowadzę.
+
+      [Verse 1]
+      Dziś czeka nas wojna, czuję to w kościach,
+      Noc była za krótka, myśli jak ostrza.
+      Nie spałem ani chwili, plan w głowie jak mapa,
+      Armia gotowa — nie pytam „czy wypada”.
+
+      Ja jestem dowódcą, wydaję komendy,
+      Każdy tu wie, że nie walczymy o trendy.
+      To nie jest zabawa, to nie jest sen,
+      Albo wrócimy z trofeum — albo wrócimy z cieniem.
+
+      (PROD: marching snare + low bass pulse)
+
+      [Pre-Chorus]
+      Serce bije jak werbel przed atakiem,
+      W oczach ogień, nie pytaj „co potem”.
+      Nie ma strachu — tylko ruch,
+      Nie ma ciszy — tylko huk.
+
+      (rise…)
+      (ready…)
+      (PROD: build-up riser + orchestral tension)
+
+      [Chorus]
+      Walka z jaguarem całą nocą, myśląc o niej nie spałem,
+      (PROD: HUGE DROP + epic drums)
+      Walka z jaguarem — dziś się nie cofałem.
+      Jaguar polegnie i odda mi się w moje ręce,
+      (stadium chant: hej! hej!)
+      Albo padnę próbując — ale dam z siebie więcej.
+
+      Walka z jaguarem, czuję jak rośnie ciśnienie,
+      Nie ma odwrotu, to przeznaczenie.
+      Jaguar polegnie, to kwestia czasu i wiary,
+      (we’re not afraid…)
+      Dziś dowodzę — dziś prowadzę armię.
+
+      [Verse 2]
+      Jeśli nie wygramy — przynajmniej spróbujemy,
+      Wracamy Nissanem, choć nie raz ciśnienie spuścił we mnie.
+      (PROD: bass stop + punch kick)
+      Ale nawet w nim wracałem z podniesioną głową,
+      Bo porażka to lekcja, nie koniec — to początek na nowo.
+
+      A Lamborghini? To model z pasażerem,
+      Nie jedzie samo — trzeba być sterem.
+      Moc pod maską nic nie znaczy,
+      Jeśli kierowca boi się nacisnąć gaz do granicy.
+
+      (grip the wheel…)
+      (full throttle…)
+      (PROD: engine rev sound + rising synth)
+
+      [Pre-Chorus]
+      Serce bije jak werbel przed atakiem,
+      W oczach ogień, nie pytaj „co potem”.
+      Nie ma strachu — tylko ruch,
+      Nie ma ciszy — tylko huk.
+
+      (ready…)
+      (now…)
+      (PROD: snare roll + tension build)
+
+      [Chorus]
+      Walka z jaguarem całą nocą, myśląc o niej nie spałem,
+      (PROD: DOUBLE DROP + distorted 808)
+      Walka z jaguarem — dziś się nie cofałem.
+      Jaguar polegnie i odda mi się w moje ręce,
+      (stadium chant: hej! hej!)
+      Albo padnę próbując — ale dam z siebie więcej.
+
+      Walka z jaguarem, adrenalina w żyłach,
+      Nie wracam pusty — nawet jeśli siła mnie zgniata.
+      Jaguar polegnie albo nauczy mnie walczyć dalej,
+      (we rise…)
+      Bo dowódca nie klęka — dowódca powstaje.
+
+      [Bridge]
+      (PROD: breakdown → cinematic choir + slow drums)
+      Nie chodzi o bestię.
+      Nie chodzi o noc.
+      Chodzi o to, czy w sobie
+      Masz wystarczającą moc.
+
+      Jeśli dziś przegram — wrócę silniejszy,
+      Jeśli dziś wygram — będę jeszcze groźniejszy.
+
+      (whisper)
+      Dowódca nie śpi.
+      Dowódca planuje.
+
+      [Final Chorus]
+      (PROD: FINAL EPIC DROP + choir + heavy drums)
+      Walka z jaguarem całą nocą, myśląc o niej nie spałem,
+      To nie był strach — to plan układałem.
+      Jaguar polegnie i odda mi się w moje ręce,
+      (stadium chant: hej! hej!)
+      Bo nie ma takiej bestii, której nie złamię sercem.
+
+      Walka z jaguarem — dziś historia się pisze,
+      Nie wracam bez walki, nie wracam w ciszy.
+      Czy Nissan czy Lambo — nieważne czym jadę,
+      Ja prowadzę armię.
+      Ja wygrywam tę walkę.
+      `,
+
+  },
+  {
     id: "K-poPoznań",
     category: "CD",
     title: "K-poPoznań",
